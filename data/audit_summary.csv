@@ -1,0 +1,3 @@
+class,count,width_min,width_median,width_max,height_min,height_median,height_max,filesize_min,filesize_median,filesize_max,corrupt_count,duplicate_count
+AiArtData,539,225,1024.0,6000,135,800.0,4001,11738,199760.0,5626183,0,2
+RealArt,436,183,920.0,8495,158,720.0,7091,11311,144840.0,10195352,0,0

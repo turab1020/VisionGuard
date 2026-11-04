@@ -12,8 +12,9 @@ build/
 
 # Data (tracked by DVC)
 data/raw/
+!data/raw.dvc
 data/processed/
-*.csv
+# *.csv  # removed — audit CSVs should be committed
 !.env.example
 
 # Models (tracked by DVC)
@@ -22,9 +23,9 @@ models/*.keras
 models/*.pkl
 
 # DVC
-/data/*.dvc
-*.dvc/cache
-*.dvc/tmp
+# /data/*.dvc  # removed — .dvc files must be committed
+.dvc/cache
+.dvc/tmp
 
 # MLflow
 mlruns/
