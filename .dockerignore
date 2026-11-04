@@ -1,0 +1,13 @@
+venv/
+.git/
+.dvc/
+data/
+mlruns/
+tuner_results/
+notebooks/
+reports/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+*.egg-info/
