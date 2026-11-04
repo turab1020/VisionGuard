@@ -1,0 +1,53 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+
+# Data (tracked by DVC)
+data/raw/
+data/processed/
+*.csv
+!.env.example
+
+# Models (tracked by DVC)
+models/*.h5
+models/*.keras
+models/*.pkl
+
+# DVC
+/data/*.dvc
+*.dvc/cache
+*.dvc/tmp
+
+# MLflow
+mlruns/
+
+# Keras Tuner
+untitled_project/
+keras_tuner_results/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+
+# Uploads (Flask)
+uploads/
+
+# Jupyter
+.ipynb_checkpoints/
