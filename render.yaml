@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: visionguard
+    runtime: docker
+    repo: https://github.com/turab1020/VisionGuard
+    branch: master
+    plan: free
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: FLASK_ENV
+        value: production
+    healthCheckPath: /health

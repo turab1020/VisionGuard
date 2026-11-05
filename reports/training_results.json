@@ -1,0 +1,33 @@
+{
+  "best_model": "MobileNetV2",
+  "results": {
+    "CustomCNN": {
+      "test_accuracy": 0.6394557823129252,
+      "test_precision": 0.5942028985507246,
+      "test_recall": 0.6212121212121212,
+      "test_f1": 0.6074074074074074,
+      "test_auc_roc": 0.6780770669659559
+    },
+    "MobileNetV2": {
+      "test_accuracy": 0.8231292517006803,
+      "test_precision": 0.7631578947368421,
+      "test_recall": 0.8787878787878788,
+      "test_f1": 0.8169014084507042,
+      "test_auc_roc": 0.9085297418630752
+    },
+    "EfficientNetB0": {
+      "test_accuracy": 0.5510204081632653,
+      "test_precision": 0.0,
+      "test_recall": 0.0,
+      "test_f1": 0.0,
+      "test_auc_roc": 0.45267489711934156
+    },
+    "ResNet50": {
+      "test_accuracy": 0.6394557823129252,
+      "test_precision": 0.589041095890411,
+      "test_recall": 0.6515151515151515,
+      "test_f1": 0.6187050359712231,
+      "test_auc_roc": 0.6984661429105873
+    }
+  }
+}
